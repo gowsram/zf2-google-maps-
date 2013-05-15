@@ -1,0 +1,27 @@
+{
+    "name": " gowsram/zf2-google-maps-",
+    "type": "library",
+    "description": "ZF2 Google Maps module",
+    "keywords": ["google","maps","google maps", "zf2"],
+    "homepage": "https://github.com/gowsram/zf2-google-maps-",
+    "license": "",
+    "authors": [
+        {
+            "name": "Ramkumar SankarPandi",
+            "email": "gowsram@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+    },
+    "autoload": {
+        "psr-0": {
+            "zf2-google-maps-": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
