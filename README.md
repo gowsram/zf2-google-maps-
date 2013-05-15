@@ -1,7 +1,7 @@
 zf2-google-maps-
 ================
 
-Google maps - ZF2  Module 
+#### Google maps - ZF2  Module 
 
 A zend framework 2 module for generate google maps using gmaps api.
 
