@@ -1,10 +1,10 @@
 {
-    "name": " gowsram/zf2-google-maps-",
+    "name": " gowsram/gmaps",
     "type": "library",
     "description": "ZF2 Google Maps module",
     "keywords": ["google","maps","google maps", "zf2"],
     "homepage": "https://github.com/gowsram/zf2-google-maps-",
-    "license": "",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ramkumar SankarPandi",
