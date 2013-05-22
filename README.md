@@ -5,7 +5,27 @@ zf2-google-maps-
 
 A zend framework 2 module for generate google maps using gmaps api.
 
-Examples:
+Installation
+------------
+
+### Main Setup
+
+#### By cloning project
+
+1. This module is available on [Packagist](https://github.com/gowsram/zf2-google-maps-).
+In your project's `composer.json` use:
+
+	```json
+    {   
+        "require": {
+			"php": ">=5.3.3",
+			"zendframework/zendframework": "*",
+			"gowsram/g-maps": "dev-master"
+    }
+	```
+2. Or clone this project into your `./vendor/` directory.
+
+Usage:
 
 1. Add the Google Maps API key in your `config/module.config.php` file.
 
