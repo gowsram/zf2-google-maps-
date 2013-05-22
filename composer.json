@@ -1,5 +1,5 @@
 {
-    "name": " gowsram/gmaps",
+    "name": "gowsram/g-maps",
     "type": "library",
     "description": "ZF2 Google Maps module",
     "keywords": ["google","maps","google maps", "zf2"],
