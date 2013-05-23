@@ -109,7 +109,7 @@ class GoogleMap {
             }
             if ($this->icon != '') {
                 $out .="icon:'" . $this->icon . "',";
-            } elseif (count($icons) > 0) {
+            } elseif (count($this->icons) > 0) {
                 $out .="icon:'" . $this->icons[$i] . "',";
             }
             $out .="title:'" . $key . "'});";
