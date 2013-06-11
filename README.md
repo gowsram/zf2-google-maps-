@@ -1,5 +1,4 @@
 [![Total Downloads](https://poser.pugx.org/gowsram/g-maps/downloads.png)](https://packagist.org/packages/gowsram/g-maps)
-
 zf2-google-maps-
 ================
 
