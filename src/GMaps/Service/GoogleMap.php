@@ -71,7 +71,7 @@ class GoogleMap {
 
         $out .= '	<div id="' . $this->div_id . '" class="' . $this->div_class . '" style="height:' . $this->height . ';width:' . $this->width . ';"></div>';
 
-        $out .= '	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=' . $this->api_key . '&sensor=' . $this->sensor . '"></script>';
+        $out .= '	<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=' . $this->api_key . '&sensor=' . $this->sensor . '"></script>';
 
         $out .= '	<script type="text/javascript"> 
     	
