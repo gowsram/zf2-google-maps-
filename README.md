@@ -28,7 +28,25 @@ In your project's `composer.json` use:
 
 Usage:
 
-1. Add the Google Maps API key in your `config/module.config.php` file.
+1. Edited your `application.config.php` file so that the `modules` array contains `GMaps`
+
+	```php
+	<?php
+	return array(
+		
+    		'modules' => array(
+        		'Application',
+        		//...
+        		'GMaps',
+    		),
+    		//...
+	);
+	```
+
+2. Add the Google Maps API key in either:
+	* your module's `config/module.config.php`
+	* the application `config/autoload/global.php`
+	* the application `config/autoload/local.php` (recommended to avoid publishing your API key)
 
 	```php
 	<?php
@@ -36,6 +54,7 @@ Usage:
 		'GMaps'=> array(
 			'api_key' => 'Your Google Maps API Key',
 		),
+		//...
 	);
     ```
     
